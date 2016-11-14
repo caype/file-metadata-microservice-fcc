@@ -1,0 +1,25 @@
+{
+  "name": "file-metadata-microservice-fcc",
+  "version": "1.0.0",
+  "description": "code for File Metadata Microservice challenge at Free Code Camp.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/caype/file-metadata-microservice-fcc.git"
+  },
+  "author": "Chaya",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/caype/file-metadata-microservice-fcc/issues"
+  },
+  "homepage": "https://github.com/caype/file-metadata-microservice-fcc#readme",
+    "dependencies": {
+    "ejs": "^2.5.2",
+    "formidable": "^1.0.17",
+    "multer": "^1.2.0"
+  }
+}
