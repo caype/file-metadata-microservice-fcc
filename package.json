@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start":"node index.js"
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
@@ -17,9 +17,9 @@
     "url": "https://github.com/caype/file-metadata-microservice-fcc/issues"
   },
   "homepage": "https://github.com/caype/file-metadata-microservice-fcc#readme",
-    "dependencies": {
+  "dependencies": {
     "ejs": "^2.5.2",
-    "formidable": "^1.0.17",
-    "multer": "^1.2.0"
+    "express": "^4.14.0",
+    "formidable": "^1.0.17"
   }
 }
